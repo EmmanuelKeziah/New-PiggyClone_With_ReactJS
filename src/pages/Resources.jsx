@@ -2,8 +2,9 @@ import React from 'react'
 
 const Resources = () => {
   return (
-    <div>Resources Page</div>
+    <div>Resources</div>
   )
 }
+
 
 export default Resources
