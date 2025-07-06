@@ -16,31 +16,32 @@ const Shop = () => {
   }, []);
 
   return (
-    <div className="shop-contain">
-      <h1>Fake Api Consumption</h1>
-      <table className="m-10">
-        <thead>
-          <tr>
-            {/* <th>Image</th> */}
-            <th>Category</th>
-            <th>Title</th>
-            <th>Price</th>
-          </tr>
-        </thead>
+    <div className="  min-h-screen flex items-center justify-center flex-col md:px-10 px-5 py-10 lg:px-12">
+      <div className=" mb-3">
+        <h1 className=" font-bold bg-gray-600 text-white p-3 rounded-lg text-2xl ">
+          List of All Available Products
+        </h1>
+      </div>
 
-        <tbody>
-          {getAxious.map(({ image, category, title, price }, i) => (
-            <tr key={i}>
-              <td>
-                <img src={image} alt={title} className="w-20 h-20" />
-              </td>
-              <td>{category}</td>
-              <td>{title}</td>
-              <td>${price}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <div className=" flex flex-wrap justify-center bg-gray-100 p-5 max-w-[1280px] px-16 mx-auto rounded-lg">
+        {getAxious.map((data, i) => (
+          <div
+            key={i}
+            className="w-[30%] h-[500px] m-2 p-4 border border-gray-300 rounded-lg shadow-lg bg-white flex flex-col justify-between "
+          >
+            <img
+              src={data.image}
+              alt={data.title}
+              className="w-full h-[200px] object-cover rounded-lg mx-auto"
+            />
+            <h2 className="font-bold text-lg mb-1">{data.title}</h2>
+            <p className="text-gray-700 mb-2 line-clamp-4">
+              {data.description}
+            </p>
+            <p className="text-green-600 font-semibold">${data.price}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

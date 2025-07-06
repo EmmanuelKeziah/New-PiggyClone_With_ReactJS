@@ -7,28 +7,31 @@ import Stories from "./pages/Stories";
 import FAQs from "./pages/FAQs";
 import Shop from "./pages/Shop";
 import Resources from "./pages/Resources";
-import "./App.css";
+import Footer from "./components/block/homepage/Footer";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/save" element={<Save />} />
-        <Route path="/Invest" element={<Invest />} />
-        <Route path="/stories" element={<Stories />} />
-        <Route path="/FAQs" element={<FAQs />} />
-        <Route path="/resources" element={<Resources />} />
-        <Route path="/shop" element={<Shop />} />
-        {/* <Route path="/piggybank" element={<PiggyBank />} />
-        <Route path="/targets" element={<TargetSavings />} />
-        <Route path="/flex-dollar" element={<FlexDollar />} />
-        <Route path="/safelock" element={<SafeLock />} />
-        <Route path="/flex-naira" element={<FlexNaira />} />
-        <Route path="/house-money" element={<HouseMoney />} /> */}
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/save" element={<Save />} />
+          <Route path="/invest" element={<Invest />} />
+          <Route path="/stories" element={<Stories />} />
+          <Route path="/fAQs" element={<FAQs />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/shop" element={<Shop />} />
+          {/* <Route path="/piggybank" element={<PiggyBank />} />
+          <Route path="/targets" element={<TargetSavings />} />
+          <Route path="/flex-dollar" element={<FlexDollar />} />
+          <Route path="/safelock" element={<SafeLock />} />
+          <Route path="/flex-naira" element={<FlexNaira />} />
+          <Route path="/house-money" element={<HouseMoney />} /> */}
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </div>
   );
 }
 

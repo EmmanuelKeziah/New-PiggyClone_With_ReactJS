@@ -23,13 +23,13 @@ const Hero = () => {
           </p>
           <main className=" flex gap-3">
             <Button
-              title="Get on iPhone"
+              label="Get on iPhone"
               bgColor="#122231"
               textColor="#fff"
               iconTitle={<FaApple />}
             />
             <Button
-              title="Get on Android"
+              label="Get on Android"
               bgColor="#122231"
               textColor="#fff"
               iconTitle={<FaGooglePlay />}

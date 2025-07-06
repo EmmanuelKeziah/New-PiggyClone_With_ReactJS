@@ -7,7 +7,7 @@ import Button from "../../reusable/Button";
 const Header = () => {
   return (
     <header className="h-24">
-      <div className="max-w-[1280px] px-16 mx-auto flex h-full items-center justify-between">
+      <div className="  max-w-[1280px] px-16 mx-auto flex h-full items-center justify-between">
         <section className="flex">
           <Link to="/">
             <main>
@@ -30,7 +30,7 @@ const Header = () => {
               <nav> Stories </nav>
             </Link>
 
-            <Link to="/FAQs">
+            <Link to="/fAQs">
               <nav> FAQs </nav>
             </Link>
 
