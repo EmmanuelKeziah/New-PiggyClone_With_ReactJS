@@ -1,6 +1,5 @@
 import { LuAlignJustify } from "react-icons/lu";
 import { IoIosArrowDown } from "react-icons/io";
-
 import { Link } from "react-router-dom";
 import Button from "../../reusable/Button";
 

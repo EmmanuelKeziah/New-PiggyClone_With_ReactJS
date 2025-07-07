@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Nav from "../static/Nav";
 
 const Save = () => {
   return (
-    <div>Save</div>
-  )
-}
+    <div>
+      <Nav />
+    </div>
+  );
+};
 
-export default Save
+export default Save;

@@ -4,6 +4,12 @@ import Home from "./pages/Home";
 import Save from "./pages/Save";
 import Invest from "./pages/Invest";
 import Stories from "./pages/Stories";
+import PiggyBank from "./pages/PiggyBank";
+import TargetSavings from "./pages/TargetSavings";
+import FlexDollar from "./pages/FlexDollar";
+import SafeLock from "./pages/SafeLock";
+import FlexNaira from "./pages/FlexNaira";
+import HouseMoney from "./pages/HouseMoney";
 import FAQs from "./pages/FAQs";
 import Shop from "./pages/Shop";
 import Resources from "./pages/Resources";
@@ -22,12 +28,12 @@ function App() {
           <Route path="/fAQs" element={<FAQs />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/shop" element={<Shop />} />
-          {/* <Route path="/piggybank" element={<PiggyBank />} />
+          <Route path="/piggybank" element={<PiggyBank />} />
           <Route path="/targets" element={<TargetSavings />} />
-          <Route path="/flex-dollar" element={<FlexDollar />} />
+          <Route path="/flexdollar" element={<FlexDollar />} />
           <Route path="/safelock" element={<SafeLock />} />
-          <Route path="/flex-naira" element={<FlexNaira />} />
-          <Route path="/house-money" element={<HouseMoney />} /> */}
+          <Route path="/flexnaira" element={<FlexNaira />} />
+          <Route path="/housemoney" element={<HouseMoney />} />
         </Routes>
         <Footer />
       </BrowserRouter>

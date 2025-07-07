@@ -6,9 +6,10 @@ import Button from "../components/reusable/Button";
 
 export default function MobileNav() {
   const [nav, setNav] = useState(false);
+
   return (
     <div>
-      <div className="w-[100%] flex justify-between items-center p-[20px] fixed bg-white   min-md:hidden">
+      <div className="w-[100%] flex justify-between items-center p-[20px] fixed z-50 bg-white   min-md:hidden">
         <div>
           <img
             className="bg-transparent"
@@ -49,6 +50,7 @@ export default function MobileNav() {
           </span>
           <span>Shop</span>
         </div>
+
         <div className="w-[100%]  border space-y-[20px]">
           <button className="w-[100%] p-[10px] rounded-[30px]">Sign In</button>
 

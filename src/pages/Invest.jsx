@@ -6,6 +6,8 @@ import invest4 from "../assets/invest4.png";
 import Button from "../components/reusable/Button";
 import { FaGooglePlay, FaApple } from "react-icons/fa";
 import invest5 from "../assets/invest5.png";
+import Cards from "../components/reusable/Cards";
+
 const Invest = () => {
   return (
     <div
@@ -173,6 +175,12 @@ const Invest = () => {
         <div className="w-3/5">
           <img src={invest5} alt="Growth" />
         </div>
+      </section>
+
+      <section className="max-w-[1280px] mx-auto px-4 pt-16">
+        <h1 className="text-3xl font-bold text-[#122231] text-center mb-8"></h1>
+
+        <Cards />
       </section>
     </div>
   );
