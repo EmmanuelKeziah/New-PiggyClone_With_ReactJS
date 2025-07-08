@@ -4,12 +4,12 @@ import { FaTimes } from "react-icons/fa";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import Button from "../components/reusable/Button";
 
-export default function MobileNav() {
+const Nav = () => {
   const [nav, setNav] = useState(false);
 
   return (
     <div>
-      <div className="w-[100%] flex justify-between items-center p-[20px] fixed z-50 bg-white   min-md:hidden">
+      <div className="w-[100%] flex justify-between items-center p-[20px] fixed z-50 bg-white min-md:hidden">
         <div>
           <img
             className="bg-transparent"
@@ -44,7 +44,7 @@ export default function MobileNav() {
           </span>
           <span>Invest</span>
           <span>Stories</span>
-          <span>FAQS</span>{" "}
+          <span>FAQS</span>
           <span className="flex items-center gap-x-[2px]">
             Resources <MdKeyboardArrowDown />
           </span>
@@ -64,4 +64,6 @@ export default function MobileNav() {
       </div>
     </div>
   );
-}
+};
+
+export default Nav;
