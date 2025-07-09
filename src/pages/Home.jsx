@@ -1,8 +1,7 @@
 import React from "react";
-import Hero from "../components/block/homepage/Hero";
-import Security from "../components/block/homepage/Security";
-import Savings from "../components/block/homepage/Savings";
-import Footer from "../components/block/homepage/Footer";
+import Hero from "../components/block/homepage/home/Hero";
+import Security from "../components/block/homepage/home/Security";
+import Savings from "../components/block/homepage/home/Savings";
 
 const Home = () => {
   return (
@@ -10,7 +9,6 @@ const Home = () => {
       <Hero />
       <Security />
       <Savings />
-      <Footer />
     </div>
   );
 };

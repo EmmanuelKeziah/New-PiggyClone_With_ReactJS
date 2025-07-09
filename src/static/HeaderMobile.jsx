@@ -4,7 +4,7 @@ import { FaTimes } from "react-icons/fa";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import Button from "../components/reusable/Button";
 
-const Nav = () => {
+const HeaderMobile = () => {
   const [nav, setNav] = useState(false);
 
   return (
@@ -40,7 +40,7 @@ const Nav = () => {
       >
         <div className=" flex flex-col items-center pt-[50px]   gap-y-[30px] ">
           <span className="flex items-center gap-x-[2px]">
-            Save <MdKeyboardArrowDown />{" "}
+            Save <MdKeyboardArrowDown />
           </span>
           <span>Invest</span>
           <span>Stories</span>
@@ -66,4 +66,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default HeaderMobile;

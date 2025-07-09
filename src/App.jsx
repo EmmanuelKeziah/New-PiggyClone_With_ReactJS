@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/block/homepage/Header";
+import Header from "./static/Header";
 import Home from "./pages/Home";
 import Save from "./pages/Save";
 import Invest from "./pages/Invest";
@@ -13,7 +13,7 @@ import HouseMoney from "./pages/HouseMoney";
 import FAQs from "./pages/FAQs";
 import Shop from "./pages/Shop";
 import Resources from "./pages/Resources";
-import Footer from "./components/block/homepage/Footer";
+import Footer from "./static/Footer";
 
 function App() {
   return (

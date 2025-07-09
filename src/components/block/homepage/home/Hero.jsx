@@ -1,5 +1,5 @@
-import heroImage from "../../../assets/heroimg.jpg";
-import Button from "../../reusable/Button";
+import heroImage from "../../../../assets/heroimg.jpg";
+import Button from "../../../reusable/Button";
 import { LuNotebook } from "react-icons/lu";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaGooglePlay, FaApple } from "react-icons/fa";
