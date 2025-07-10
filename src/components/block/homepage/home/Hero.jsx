@@ -6,7 +6,7 @@ import { FaGooglePlay, FaApple } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className=" min-h-[85vh]  ">
+    <div className=" min-h-[85vh] ">
       <div className=" max-w-[1280px] h-full px-16 mx-auto flex justify-between  items-center pt-[120px] max-tablet:flex-col">
         <section className=" max-w-[450px] max-tablet:flex max-tablet:flex-col max-tablet:items-center max-tablet:text-center max-tablet:max-w-[600px] max-tablet:mb-6 ">
           <main className=" flex w-[350px] h-11 bg-blue-400 text-white items-center justify-center rounded-full font-semibold mb-6  ">

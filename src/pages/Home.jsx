@@ -5,7 +5,7 @@ import Savings from "../components/block/homepage/home/Savings";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="bg-[#f0f4f8]">
       <Hero />
       <Security />
       <Savings />

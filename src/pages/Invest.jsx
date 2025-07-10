@@ -8,6 +8,13 @@ import { FaGooglePlay, FaApple } from "react-icons/fa";
 import invest5 from "../assets/invest5.png";
 import Cards from "../components/reusable/Cards";
 
+import img1 from "../assets/img1.jpg";
+import img2 from "../assets/img2.png";
+import img3 from "../assets/img3.png";
+import img4 from "../assets/img4.png";
+import img5 from "../assets/img5.png";
+import img6 from "../assets/img6.png";
+
 const Invest = () => {
   return (
     <div
@@ -178,9 +185,81 @@ const Invest = () => {
       </section>
 
       <section className="max-w-[1280px] mx-auto px-4 pt-16">
-        <h1 className="text-3xl font-bold text-[#122231] text-center mb-8"></h1>
+        <h1 className="text-6xl font-bold text-[#122231] text-center mb-8">
+          Recent Opportunities on Investify
+        </h1>
+        <div className="grid grid-cols-3 gap-[40px]">
+          <div className="max-w-[360px]">
+            <Cards
+              title="CORPORATE DEBT NOTES SERIES XLVII"
+              price="₦5,000"
+              number="582"
+              investors="Investors"
+              unit="per unit"
+              img={img1}
+              tag="Sold Out"
+            />
+          </div>
+          <div>
+            <Cards
+              title="CORPORATE DEBT NOTES SERIES XLVI"
+              price="₦5,000"
+              number="746"
+              investors="Investors"
+              unit="per unit"
+              img={img2}
+              tag="Sold Out"
+            />
+          </div>
 
-        <Cards />
+          <div>
+            <Cards
+              title="CORPORATE DEBT NOTES SERIES XLV"
+              price="₦5,000"
+              number="472"
+              investors="Investors"
+              unit="per unit"
+              img={img3}
+              tag="Sold Out"
+            />
+          </div>
+
+          <div>
+            <Cards
+              title="CORPORATE DEBT NOTES SERIES XLIV"
+              price="₦5,000"
+              number="864"
+              investors="Investors"
+              unit="per unit"
+              img={img4}
+              tag="Sold Out"
+            />
+          </div>
+
+          <div>
+            <Cards
+              title="CORPORATE DEBT NOTES SERIES XLIII"
+              price="₦5,000"
+              number="375"
+              investors="Investors"
+              unit="per unit"
+              img={img5}
+              tag="Sold Out"
+            />
+          </div>
+
+          <div>
+            <Cards
+              title="CORPORATE DEBT NOTES SERIES XLII"
+              price="₦5,000"
+              unit="per unit"
+              number="1276"
+              investors="Investors"
+              img={img6}
+              tag="Sold Out"
+            />
+          </div>
+        </div>
       </section>
     </div>
   );
