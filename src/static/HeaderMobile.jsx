@@ -14,7 +14,7 @@ const HeaderMobile = () => {
           <img
             className="bg-transparent"
             src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/logo_08e6965627/logo_08e6965627.svg"
-            alt=""
+            alt="piggyvest-logo"
           />
         </div>
 

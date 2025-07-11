@@ -3,6 +3,7 @@ import Button from "../components/reusable/Button";
 import story from "../assets/story.png";
 import story2 from "../assets/story2.png";
 import { FaGooglePlay, FaApple } from "react-icons/fa";
+import Sponsors from "../static/Sponsors";
 
 const Stories = () => {
   return (
@@ -166,6 +167,8 @@ const Stories = () => {
 
         <div className="cards"></div>
       </section>
+
+      <Sponsors />
     </div>
   );
 };

@@ -12,3 +12,16 @@ body {
 h1 {
   line-height: 1.1;
 }
+
+.foot {
+  h4 {
+    color: #122231;
+  }
+  ul {
+    li {
+      &:hover {
+        color: #1f9ae3;
+      }
+    }
+  }
+}

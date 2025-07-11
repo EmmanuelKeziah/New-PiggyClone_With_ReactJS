@@ -7,7 +7,7 @@ import Button from "../components/reusable/Button";
 import { FaGooglePlay, FaApple } from "react-icons/fa";
 import invest5 from "../assets/invest5.png";
 import Cards from "../components/reusable/Cards";
-
+import Sponsors from "../static/Sponsors";
 import img1 from "../assets/img1.jpg";
 import img2 from "../assets/img2.png";
 import img3 from "../assets/img3.png";
@@ -155,7 +155,6 @@ const Invest = () => {
             className="w-[100%] text-lg mb-20"
             style={{
               color: "#485F6E",
-              backgroundColor: "#F2F7F8",
             }}
           >
             Invest in various industries such as fixed income instruments,
@@ -188,7 +187,7 @@ const Invest = () => {
         <h1 className="text-6xl font-bold text-[#122231] text-center mb-8">
           Recent Opportunities on Investify
         </h1>
-        <div className="grid grid-cols-3 gap-[40px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[40px]">
           <div className="max-w-[360px]">
             <Cards
               title="CORPORATE DEBT NOTES SERIES XLVII"
@@ -261,6 +260,8 @@ const Invest = () => {
           </div>
         </div>
       </section>
+
+      <Sponsors />
     </div>
   );
 };
