@@ -2,7 +2,6 @@
 
 :root {
   font-family: "Figtree" system-ui, Avenir, Helvetica, Arial, sans-serif;
-  /* max-width: 1280px; */
 }
 
 body {
@@ -16,9 +15,13 @@ h1 {
 .foot {
   h4 {
     color: #122231;
+    font-size: 14px;
+    font-weight: 500;
   }
   ul {
+    color: #485f6e;
     li {
+      font: 14px;
       &:hover {
         color: #1f9ae3;
       }

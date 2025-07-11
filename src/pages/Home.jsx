@@ -6,7 +6,7 @@ import Sponsors from "../static/Sponsors";
 
 const Home = () => {
   return (
-    <div className="bg-[#f0f4f8]">
+    <div className="bg-[#F2F7F8]">
       <Hero />
       <Security />
       <Savings />
