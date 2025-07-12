@@ -19,7 +19,7 @@ const Footer = () => {
           />
         </div>
 
-        <div className="flex flex-wrap gap-10">
+        <div className="flex gap-10">
           <section className="min-w-[40%]">
             <h4>Products</h4>
             <ul className="flex flex-col gap-3">
